@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examen2FreddyGonzalezApp.Views.PreguntaPage"
+             Title="Pregunta">
+    <VerticalStackLayout Padding="20">
+        <Entry x:Name="TxtAsk1" Placeholder="Ask1" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Entry x:Name="TxtUserId" Placeholder="User Id" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Entry x:Name="TxtAskStatusId" Placeholder="Ask Status Id" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Entry x:Name="TxtIsStrike" Placeholder="Is Strike" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Entry x:Name="TxtImageURL" Placeholder="Image URL" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Entry x:Name="TxtAskDetail" Placeholder="Ask Detail" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Picker x:Name="CboxAnswers" Title="Select Answer"/>
+        <Button x:Name="BtnSave" Text="Save" Clicked="BtnSave_Clicked" VerticalOptions="End"></Button>
+    </VerticalStackLayout>
+</ContentPage>

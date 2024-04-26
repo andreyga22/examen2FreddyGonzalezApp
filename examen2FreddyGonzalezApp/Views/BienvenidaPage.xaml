@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examen2FreddyGonzalezApp.Views.BienvenidaPage"
+             Title="Bienvenida">
+    <VerticalStackLayout>
+        <Entry x:Name="TxtUser" Placeholder="Username" PlaceholderColor="Black" FontSize="30" Keyboard="Text"/>
+        <Entry x:Name="TxtPassword" Placeholder="Password" PlaceholderColor="Black" FontSize="30" Keyboard="Text" IsPassword="True" />
+        <Button x:Name="BtnSignUp" Text="Sign Up"  Clicked="BtnSignUp_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>
